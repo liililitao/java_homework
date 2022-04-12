@@ -1,3 +1,4 @@
+import second.Test;
 
 public class TestBook {
 
@@ -8,6 +9,8 @@ public class TestBook {
 		Book book2 = new Book("áÝáå", "Â³Ñ¸", 2000);
 		book1.printBook();
 		book2.printBook();
+		Test t1 = new Test();
+		t1.name = "ÕÅÈý";
 	}
 
 }
